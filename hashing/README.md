@@ -1,6 +1,9 @@
 # hashing
 
-- [original project](https://github.com/udacity/nd1309_hashing)
+- [hashing](https://github.com/udacity/nd1309_hashing)
+- [practice block](https://github.com/udacity/nd1309_practice_block)
+
+##
 
 To install dependencies:
 
