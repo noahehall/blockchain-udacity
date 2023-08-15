@@ -1,0 +1,15 @@
+{
+  "name": "hashing",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  }
+}
