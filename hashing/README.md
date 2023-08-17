@@ -14,7 +14,6 @@ bun install
 To run:
 
 ```bash
-cd hashing
 bun run
   hashing # hashing stuff with crypto-js
   practice  # hashig a Block with crypto-js
