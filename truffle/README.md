@@ -1,11 +1,10 @@
 # Truffle playground
 
-- truffle with the webpack box
+- [truffle quickstart with metacoin](https://trufflesuite.com/docs/truffle/quickstart/)
 
 ## links
 
 - [installation](https://trufflesuite.com/docs/truffle/how-to/install/)
-- [webpack box](https://trufflesuite.com/boxes/webpack/)
 
 ## TLDR
 
@@ -15,15 +14,17 @@ nvm use
 bun add -g truffle
 truffle -v
 
+cd dApp
+truffle test
+
 ## console 1
 
-truffle develop # launches the dev repl
-compile # the smart contracts
-migrate # the smart contracts
+truffle dashboard
 
 ## console 2
-cd app
-bun run dev
+truffle compile --network dashbaord
+truffle migrate --network dashboard
+
 
 
 ```
