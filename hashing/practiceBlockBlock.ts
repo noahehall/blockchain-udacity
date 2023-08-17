@@ -7,7 +7,11 @@ import { SHA256 } from "crypto-js";
  * Class with a constructor for block
  */
 export class Block {
-  constructor(data) {
+  id: number;
+  nonce: number;
+  body: any;
+  hash: any;
+  constructor(data: any) {
     this.id = 0;
     this.nonce = 144444;
     this.body = data;
@@ -22,12 +26,12 @@ export class Block {
    * the hash of the object and assigned to the hash property `self.hash = ...`
    */
   //
-  generateHash() {
+  async generateHash() {
     // Use this to create a temporary reference of the class object
     let self = this;
     //Implement your code here
+    self.hash = SHA256(JSON.stringify(this));
+
+    return self;
   }
 }
-
-// Exporting the class Block to be reuse in other files
-// module.exports.Block = Block;
